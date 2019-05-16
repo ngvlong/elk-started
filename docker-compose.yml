@@ -15,6 +15,7 @@ services:
             XPACK_MONITORING_ENABLED: "false"
         ports:
             - '514:10514/udp'
+            - '5044:5044'
         mem_limit: 512m
 
     elasticsearch:
